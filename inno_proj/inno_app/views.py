@@ -40,3 +40,9 @@ def upload(request):
 
 
     return render(request,'inno_app/upload.html',{'form':form})
+
+
+def storypage(request):
+    return render(request,'inno_app/storypage.html')
+def videopage(request):
+    return render(request,'inno_app/videopage.html')

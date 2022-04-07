@@ -13,6 +13,8 @@ urlpatterns=[
         path('story/',views.story,name='story'),
         path('info/',views.info,name='info'),
         path('upload/',views.upload,name='upload'),
-    
+        path('storypage/',views.storypage,name='storypage'),
+        path('videopage/',views.videopage,name='videopage')
+
 
 ]
